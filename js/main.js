@@ -1,6 +1,7 @@
 const auth = firebaseApp.auth();
 
 var accessToken;
+var refreshToken;
 
 document.getElementById('logout_button').addEventListener('click', Logout);
 document.addEventListener('DOMContentLoaded', main_dom_loaded);
